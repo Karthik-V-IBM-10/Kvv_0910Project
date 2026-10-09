@@ -179,6 +179,23 @@
         <value name="modifiable">true</value>
         <value name="rec_ref">project.kvv_0910.documenttypes:doc</value>
       </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">ES</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -190,20 +207,14 @@
 <MAPCOPY FROM="/doc;4;0;project.kvv_0910.documenttypes:doc/value;1;0" TO="/events;2;1/value;3;0">
 </MAPCOPY>
 
+<MAPCOPY FROM="/ES;1;0" TO="/eventSpecificationName;1;0">
+</MAPCOPY>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionAlias;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
   <value name="xml">project.kvv_0910.streaming.connections:EmbeddedMessaging</value>
-</Values>
-</DATA>
-</MAPSET>
-
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/eventSpecificationName;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">ES_Q</value>
 </Values>
 </DATA>
 </MAPSET>
