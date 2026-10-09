@@ -204,10 +204,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/doc;4;0;project.kvv_0910.documenttypes:doc/value;1;0" TO="/events;2;1/value;3;0">
+<MAPCOPY FROM="/ES;1;0" TO="/eventSpecificationName;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/ES;1;0" TO="/eventSpecificationName;1;0">
+<MAPCOPY FROM="/doc;4;0;project.kvv_0910.documenttypes:doc" TO="/events;2;1/value;3;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionAlias;1;0">
