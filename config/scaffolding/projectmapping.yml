@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: Kvv_0910Project
+runtimes:
+- runtimeAlias: kvv_0910
+  assets:
+  - name: Kvv_0910Project.project.kvv_0910.eventtriggers:trigger_Q
+    type: trigger
+  - name: Kvv_0910Project.project.kvv_0910.eventtriggers:trigger_T
+    type: trigger
