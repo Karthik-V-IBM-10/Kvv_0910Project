@@ -8,7 +8,7 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
-- serviceName: project.kvv_0910.eventtriggers.trigger_T_:trigger_T_target
+- serviceName: project.kvv_0910.eventtriggers.trigger_Q_:trigger_Q_target
   packages:
   - name: Kvv_0910Project
     version: "1.0"
@@ -16,6 +16,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1221
+- serviceName: project.kvv_0910.eventtriggers.trigger_T_:trigger_T_target
+  packages:
+  - name: Kvv_0910Project
+    version: "1.0"
 - serviceName: project.kvv_0910.streaming.connections:EmbeddedMessaging
   packages:
   - name: Kvv_0910Project
