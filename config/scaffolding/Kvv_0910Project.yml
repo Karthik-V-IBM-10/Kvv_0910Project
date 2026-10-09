@@ -28,6 +28,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1221
+- serviceName: project.kvv_0910.integrations:test
+  packages:
+  - name: Kvv_0910Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1221
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
